@@ -1,0 +1,62 @@
+.d3-chart {
+	width: 100%;
+	height: 200px;
+	background-color: lightgreen;
+	padding: 15 15 15 15;
+	margin: 2em 2em 2em 2em;
+
+	svg {
+		border: 1px thick green;
+	}
+	.axis {
+		path,
+		line {
+			stroke: #999;
+		}
+		text {
+			fill: #999;
+		}
+	}
+}
+
+.d3-text-bold {
+	font-weight: bold;
+	color: red;
+}
+
+.d3-text-normal {
+	font-weight: bold;
+	color: white;
+	background-color: red;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	// padding: 10px;
+}
+
+.grid-container-5 {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	padding: 10px;
+}
+
+.grid-container-2 {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+.grid-container-1 {
+	display: grid;
+	grid-template-columns: auto;
+	// padding: 10px;
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 10px;
+	text-align: center;
+}

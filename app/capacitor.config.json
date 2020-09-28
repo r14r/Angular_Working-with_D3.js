@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.app",
+  "appName": "working-with-d3js",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www",
+  "cordova": {}
+}

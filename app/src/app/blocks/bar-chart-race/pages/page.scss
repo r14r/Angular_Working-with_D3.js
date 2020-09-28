@@ -1,0 +1,84 @@
+.d3-chart {
+	width: 100%;
+	height: 800px;
+	padding: 15 15 15 15;
+	margin: 2em 2em 2em 2em;
+	background-color: white;
+
+	svg {
+		background-color: 1px thick green;
+	}
+	.axis {
+		path,
+		line {
+			stroke: #999;
+		}
+		text {
+			fill: #999;
+		}
+	}
+}
+
+h1 {
+	font-size: 4em;
+	color: yellow;
+}
+
+.svg {
+	border: thick rgb(216, 33, 33);
+}
+
+text {
+	font-size: 16px;
+	font-family: Open Sans, sans -serif;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.subTitle {
+	font-weight: 500;
+	color: #777777;
+	fill: #777777;
+}
+
+.caption {
+	font-weight: 400;
+	font-size: 14px;
+	fill: #777777;
+}
+.label {
+	font-weight: 600;
+}
+
+.valueLabel {
+	font-weight: 300;
+}
+
+.yearText {
+	font-size: 4em;
+	font-weight: 700;
+	opacity: 0.25;
+}
+.tick text {
+	fill: #df0808;
+}
+
+.xaxis.tick:nth-child(2) text {
+	text-anchor: start;
+}
+
+.tick line {
+	shape-rendering: CrispEdges;
+	stroke: #dddddd;
+}
+
+.tick line.origin {
+	stroke: #aaaaaa;
+}
+
+path.domain {
+	display: none;
+}

@@ -1,0 +1,64 @@
+<div class="container">
+	<div class="card-deck mb-3 text-center">
+		<div class="card mb-4 box-shadow">
+			<div class="card-header">
+				<h4 class="my-0 font-weight-normal">Demo 1</h4>
+			</div>
+			<div class="card-body">
+				<button (click)="demo1_run()" type="button"
+					class="btn btn-lg btn-block btn-outline-primary">Run</button>
+				<ul class="list-unstyled mt-3 mb-4">
+					<div>
+						<svg class="svg" width="300" height="100px">
+							<rect class="rect" id="p1" x="5" y="5" width="50" height="50" stroke="black" fill="#69b3a2"
+								stroke-width="0" />
+						</svg>
+					</div>
+				</ul>
+
+			</div>
+		</div>
+		<div class="card mb-4 box-shadow">
+			<div class="card-header">
+				<h4 class="my-0 font-weight-normal">Demo 2</h4>
+			</div>
+			<div class="card-body">
+				<button (click)="demo2_run()" type="button" class="btn btn-lg btn-block btn-primary">Run</button>
+				<ul class="list-unstyled mt-3 mb-4">
+					<svg class="svg" id="p2" width="200px" height="350px"></svg>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="card mb-4 box-shadow">
+			<div class="card-header">
+				<h4 class="my-0 font-weight-normal">Demo 3</h4>
+			</div>
+			<div class="card-body">
+				<button (click)="demo3_run()" type="button" class="btn btn-lg btn-block btn-primary">Run</button>
+				<ul class="list-unstyled mt-3 mb-4">
+					<svg class="svg" id="p3" width="200px" height="350px"></svg>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="card mb-4 box-shadow">
+			<div class="card-header">
+				<h4 class="my-0 font-weight-normal">Demo 4</h4>
+			</div>
+			<div class="card-body">
+				<button (click)="demo4_run()" type="button" class="btn btn-lg btn-block btn-primary">Run</button>
+				<ul class="list-unstyled mt-3 mb-4">
+					<svg class="svg" id="p4" width="200px" height="350px"></svg>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+<div class="d3-chart" #chart></div>
